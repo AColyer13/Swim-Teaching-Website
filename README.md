@@ -1,6 +1,6 @@
 # Swim Teaching Website
 
-This is a simple static website designed to teach various swimming strokes. It provides information, techniques, and videos for learning freestyle, backstroke, breaststroke, and butterfly strokes.
+This is a simple static website designed to teach various swimming strokes. It provides information, techniques, and files for learning freestyle, backstroke, breaststroke, and butterfly strokes.
 
 ## Features
 
@@ -10,7 +10,7 @@ This is a simple static website designed to teach various swimming strokes. It p
   - Backstroke
   - Breaststroke
   - Butterfly
-- **Videos Page**: Collection of instructional videos for swimming techniques.
+- **Files Page**: Collection of instructional files for swimming techniques.
 - **Responsive Design**: Styled with CSS for a clean and user-friendly interface.
 
 ## File Structure
@@ -20,7 +20,7 @@ This is a simple static website designed to teach various swimming strokes. It p
 - `backstroke.html`: Page for backstroke stroke.
 - `breaststroke.html`: Page for breaststroke stroke.
 - `butterfly.html`: Page for butterfly stroke.
-- `videos.html`: Page for swimming videos.
+- `files.html`: Page for swimming files.
 - `nav.html`: Navigation bar component loaded by JavaScript.
 - `styles.css`: CSS file for styling the website.
 - `app.js`: JavaScript file for interactive features and loading navigation.
