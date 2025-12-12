@@ -186,10 +186,16 @@ body {
 /* Headings and paragraphs inside main-content */
 .main-content h1 {
     margin-top: 0.5rem;
-    margin-bottom: 0.7rem; /* Reduced from 1.5rem */
+    margin-bottom: 1.2rem;
     font-size: 2.2rem;
     color: #1976d2;
     text-align: center;
+    font-weight: bold;
+}
+.intro-p {
+    text-align: center;
+    max-width: 90%;
+    margin: 0 auto 2rem auto;
 }
 .main-content p {
     margin-top: 0.5rem; /* Reduced from 1.1rem */
