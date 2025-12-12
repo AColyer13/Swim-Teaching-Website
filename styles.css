@@ -250,22 +250,23 @@ body {
     margin-bottom: 0.85rem;
     padding-left: 1.2em;
 }
-.main-content div[style*="margin-left:1.2em"] {
+.golden-rule {
+    margin-top: 1em;
+}
+
+.drills-table {
     width: 100%;
-    box-sizing: border-box;
-    margin-left: 0 !important;
-    padding-left: 1.2em;
+    border-collapse: collapse;
+    margin-top: 1em;
 }
-.main-content div[style*="margin-left:1.2em"] > strong {
-    display: block;
-    margin-top: 0.9rem;
-    margin-bottom: 0.25rem;
+.drills-table thead tr {
+    background: #e3f2fd;
 }
-.main-content div[style*="margin-left:1.2em"] ul,
-.main-content div[style*="margin-left:1.2em"] ol {
-    margin-top: 0.35rem;
-    margin-bottom: 0.85rem;
-    padding-left: 1.2em;
+.drills-table th,
+.drills-table td {
+    padding: 0.5em;
+    border: 1px solid #1976d2;
+    text-align: left;
 }
 .stroke-list {
     width: 100%;
