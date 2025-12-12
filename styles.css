@@ -196,6 +196,7 @@ body {
     text-align: center;
     max-width: 90%;
     margin: 0 auto 2rem auto;
+    width: 100%;
 }
 .main-content p {
     margin-top: 0.5rem; /* Reduced from 1.1rem */
@@ -205,6 +206,69 @@ body {
     line-height: 1.7;
     text-align: left;
     max-width: 95%;
+    width: 100%;
+}
+
+/* Consistent content structure for technique pages */
+.main-content section {
+    width: 100%;
+}
+.main-content h2 {
+    width: 100%;
+    margin: 1.6rem 0 0.6rem;
+    font-size: 1.45rem;
+    font-weight: 700;
+    color: #1565c0;
+    text-align: left;
+}
+.main-content h3 {
+    width: 100%;
+    margin: 1.1rem 0 0.4rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #1565c0;
+    text-align: left;
+}
+.section-body {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 1.2em;
+}
+.section-body > strong {
+    display: block;
+    margin-top: 0.9rem;
+    margin-bottom: 0.25rem;
+}
+.main-content ul,
+.main-content ol {
+    width: 100%;
+    box-sizing: border-box;
+}
+.section-body ul,
+.section-body ol {
+    margin-top: 0.35rem;
+    margin-bottom: 0.85rem;
+    padding-left: 1.2em;
+}
+.main-content div[style*="margin-left:1.2em"] {
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 0 !important;
+    padding-left: 1.2em;
+}
+.main-content div[style*="margin-left:1.2em"] > strong {
+    display: block;
+    margin-top: 0.9rem;
+    margin-bottom: 0.25rem;
+}
+.main-content div[style*="margin-left:1.2em"] ul,
+.main-content div[style*="margin-left:1.2em"] ol {
+    margin-top: 0.35rem;
+    margin-bottom: 0.85rem;
+    padding-left: 1.2em;
+}
+.stroke-list {
+    width: 100%;
 }
 .stroke-list {
     margin-top: 2rem;
