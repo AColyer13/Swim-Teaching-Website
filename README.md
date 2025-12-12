@@ -21,8 +21,9 @@ This is a simple static website designed to teach various swimming strokes. It p
 - `breaststroke.html`: Page for breaststroke stroke.
 - `butterfly.html`: Page for butterfly stroke.
 - `videos.html`: Page for swimming videos.
+- `nav.html`: Navigation bar component loaded by JavaScript.
 - `styles.css`: CSS file for styling the website.
-- `app.js`: JavaScript file for any interactive features.
+- `app.js`: JavaScript file for interactive features and loading navigation.
 
 ## How to Run
 
